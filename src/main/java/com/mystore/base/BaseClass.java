@@ -43,7 +43,7 @@ public class BaseClass {
 		}
 		
 	
-		//driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		
 		driver.get(prop.getProperty("url"));
 	
